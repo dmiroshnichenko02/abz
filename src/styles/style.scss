@@ -33,10 +33,11 @@ fieldset {
     padding: 0;
     margin: 0;
 }
+// MUI svg radio button color
 .MuiRadio-colorPrimary.Mui-checked .MuiSvgIcon-root {
     color: blue;
 }
-
+// MUI svg radio button color
 .MuiRadio-colorPrimary:not(.Mui-checked) .MuiSvgIcon-root {
     fill: #D0CFCF;
 }
@@ -51,3 +52,5 @@ fieldset {
     display: block;
     margin: 0 auto;
 }
+// Media style
+@import './media.scss';

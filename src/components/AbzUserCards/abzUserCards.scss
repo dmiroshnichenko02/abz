@@ -32,6 +32,7 @@
         &_icon,
         &_name {
             margin-bottom: 20px;
+            border-radius: 50%;
         }
 
         &_position,
@@ -41,9 +42,11 @@
             line-height: 26px;
         }
     }
+
     &__btn {
         display: block;
         margin: 0 auto;
         margin-top: 50px;
     }
+
 }

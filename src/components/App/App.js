@@ -6,14 +6,12 @@ import AbzUserCards from "../AbzUserCards/AbzUserCards";
 import AbzForm from "../AbzForm/AbzForm";
 
 const App = () => {
-
+  // Component state
   const [newUser, setNewUser] = useState(null);
-
+  // Getting a new user from the form and sending it further to the cards component
   const getNewUser = (newUser) => {
     setNewUser(newUser)
   }
-
-  console.log(newUser)
 
   return (
     <div>

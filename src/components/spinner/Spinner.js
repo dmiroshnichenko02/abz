@@ -1,4 +1,5 @@
 const Spinner = () => {
+    // Spinner component for loading visualization
     return (
         <svg className="spinner" version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="100px" height="100px" viewBox="0 0 50 50" style={{"enableBackground":"new 0 0 50 50"}} xspace="preserve">

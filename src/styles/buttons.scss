@@ -1,5 +1,6 @@
 @import "./variables.scss";
 
+// Button styles
 .btn {
     width: 100px;
     height: 34px;
@@ -10,11 +11,11 @@
     line-height: 26px;
     color: $btn-text-color;
     cursor: pointer;
-
+    // Disable button
     &__disable {
         background-color: $disable-color;
     }
-
+    // Active button
     &__active {
         transition: all .5s;
         &:hover {
