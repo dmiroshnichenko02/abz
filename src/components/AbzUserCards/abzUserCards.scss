@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.cards {
+    padding: 140px 0;
+    min-height: 991px;
+
+    &__title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        color: $btn-text-color;
+        text-align: center;
+    }
+
+    &__wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: minmax(254px, auto);
+        grid-auto-rows: minmax(254px, auto);
+        gap: 29px;
+    }
+
+    &__item {
+        width: 370px;
+        min-height: 254px;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+
+        &_icon,
+        &_name {
+            margin-bottom: 20px;
+        }
+
+        &_position,
+        &_mail,
+        &_number {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

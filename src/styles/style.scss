@@ -1,0 +1,53 @@
+//  Normalize style
+@import './libs/normalize.css';
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import './variables.scss';
+@import './buttons.scss';
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+main {
+    background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+fieldset {
+    padding: 0;
+    margin: 0;
+}
+.MuiRadio-colorPrimary.Mui-checked .MuiSvgIcon-root {
+    color: blue;
+}
+
+.MuiRadio-colorPrimary:not(.Mui-checked) .MuiSvgIcon-root {
+    fill: #D0CFCF;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.spinner {
+    display: block;
+    margin: 0 auto;
+}

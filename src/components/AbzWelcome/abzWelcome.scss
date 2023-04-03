@@ -1,0 +1,31 @@
+.welcome {
+    min-height: 650px;
+    background: url(../../assets/img/bg.jpg) center (center/contain) no-repeat;
+    padding: 164px 0 163px 0;
+
+    &__title {
+        width: 380px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__description {
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 21px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+}

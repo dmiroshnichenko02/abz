@@ -1,0 +1,181 @@
+@import '../../styles/variables.scss';
+
+.forms {
+    padding-bottom: 100px;
+
+    &__title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: $btn-text-color;
+    }
+
+    form {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        min-height: 567px;
+
+        span {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        .css-u4tvz2-MuiFormLabel-root {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 400;
+            margin-bottom: 11px;
+        }
+
+    }
+
+    &__input {
+        padding: 14px 0px 14px 16px;
+        border: 1px solid $input-border;
+        border-radius: 4px;
+    }
+
+    &__input_margin {
+        margin-top: 50px;
+    }
+
+    &__input_label {
+        color: $input-color;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 16px;
+    }
+
+    &__radio {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+
+        label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 7px;
+        }
+    }
+
+    [type=radio] {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        // margin-right: 12px;
+        // position: relative;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid $input-border;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        &:checked::before {
+            background: $second-color;
+        }
+
+        &:checked {
+            border-color: $second-color;
+        }
+    }
+
+    &__position {
+        margin-bottom: 11px;
+    }
+
+    // Upload file
+    input[type='file'] {
+        display: none;
+    }
+
+    .custom-file-upload {
+        width: 380px;
+        height: 54px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 6px 0;
+        margin-top: 47px;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 1.42857143;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .custom-file-upload:hover {
+        background-color: #eee;
+    }
+
+    .file__up {
+        width: 83px;
+        height: 54px;
+        margin-right: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $btn-text-color;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $btn-text-color;
+    }
+
+    .file__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $input-color;
+    }
+
+    &__btn {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    svg path {
+        color: $second-color;
+    }
+
+    .css-u4tvz2-MuiFormLabel-root.Mui-focused {
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.forms__input_label {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,12 @@
+.header {
+    height: 60px;
+    &__wrapper {
+        padding: 13px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__users {
+        margin-right: 10px;
+    }
+}
